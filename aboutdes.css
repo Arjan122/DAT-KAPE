@@ -1,0 +1,103 @@
+body{
+    background-color: #ffe4e1;
+    width: 100%;
+    height: 100vh;
+}
+
+.back1{
+    width: 100%;
+    height: 110px;
+    background-color: #ffe4e1;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+}
+
+.back2{
+    text-align: left;
+}
+
+ul{
+   list-style-type: none; 
+   display: flex;
+}
+
+li{
+    margin: 15px;
+    margin-top: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+li:hover{
+    color: white;
+    transition: .1s;
+}
+
+.color1{
+    color: white;
+}
+
+.logo1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.fonts1{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.pos3{
+    margin-top: 150px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.pos3{
+    border: 1px solid;
+    width: 1400px;
+    height: 700px;
+}
+
+.pic1{
+    width: 500px;
+    height: 600px;
+}
+
+.pos2{
+    text-align: center;
+    width: 450px;
+}
+
+#ab1{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+#ab2{
+    font-size: 23px;
+}
+
+.design2a{
+    width: 500px;
+    height: 550px;
+    position: absolute;
+    bottom: -20%;
+    left: -10%;
+    z-index: -10;
+}

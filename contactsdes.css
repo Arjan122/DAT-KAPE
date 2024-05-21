@@ -1,0 +1,127 @@
+body{
+    background-color: #ffe4e1;
+    width: 100%;
+    height: 100vh;
+}
+
+.back1{
+    width: 100%;
+    height: 110px;
+    background-color: #ffe4e1;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+}
+
+.back2{
+    text-align: left;
+}
+
+ul{
+   list-style-type: none; 
+   display: flex;
+}
+
+li{
+    margin: 15px;
+    margin-top: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+li:hover{
+    color: white;
+    transition: .1s;
+}
+
+.color1{
+    color: white;
+}
+
+.logo1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.fonts1{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+#location{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.marg2{
+    width: 1500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 250px;
+}
+
+#loc{
+    display: flex;
+    border: 2px solid;
+    align-items: center;
+    width: 300px;
+}
+
+#instagram{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#insta{
+    display: flex;
+    border: 2px solid;
+    align-items: center;
+    width: 300px;
+}
+
+#facebook{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#face{
+    display: flex;
+    border: 2px solid;
+    align-items: center;
+    width: 300px;
+}
+
+#face, #insta, #loc{
+    margin-top: 10px;
+}
+
+#des3{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 600px;
+}
+
+#des4{
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    bottom: -50px;
+    right: 0px;
+}

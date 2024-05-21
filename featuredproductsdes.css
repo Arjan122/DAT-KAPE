@@ -1,0 +1,233 @@
+body{
+    background-color: #ffe4e1;
+    width: 100%;
+    height: 100vh;
+}
+
+.back1{
+    width: 100%;
+    height: 110px;
+    background-color: #ffe4e1;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+}
+
+.back2{
+    text-align: left;
+}
+
+ul{
+   list-style-type: none; 
+   display: flex;
+}
+
+li{
+    margin: 15px;
+    margin-top: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+li:hover{
+    color: white;
+    transition: .1s;
+}
+
+.color1{
+    color: white;
+}
+
+.logo1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.fonts1{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.marg1{
+    margin: 40px;
+    width: 1500px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 150px;
+}
+
+#mocha{
+    width: 150px;
+    height: 300px;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+
+#mocha1{
+    width: 100px;
+    height: 200px;
+}
+
+#matcha{
+    width: 150px;
+    height: 300px;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin-left: 40px;
+}
+
+#matcha1{
+    width: 100px;
+    height: 200px;
+}
+
+#cappuccino{
+    width: 200px;
+    height: 300px;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin-left: 40px;
+}
+
+#cappuccino1{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+#hazelnut{
+    width: 150px;
+    height: 300px;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin-left: 40px;
+}
+
+#hazelnut1{
+    width: 100px;
+    height: 200px;
+}
+
+#strawberry{
+    width: 200px;
+    height: 300px;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin-left: 40px;
+}
+
+#strawberry1{
+    width: 100px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+#salted{
+    width: 200px;
+    height: 300px;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin-left: 40px;
+}
+
+#salted1{
+    width: 100px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+#banana{
+    width: 200px;
+    height: 300px;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin-left: 40px;
+}
+
+#banana1{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+#baked{
+    width: 200px;
+    height: 300px;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin-left: 40px;
+}
+
+#baked1{
+    width: 100px;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.des11{
+    width: 550px;
+    height: 450px;
+    position: absolute;
+    top: 700px;
+    left: -100px;
+    z-index: -100;
+}
+
+.des12{
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+    z-index: -100;
+}
+
+.marg2{
+    margin: 40px;
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 150px;
+}
